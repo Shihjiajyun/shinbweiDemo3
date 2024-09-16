@@ -3,6 +3,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 .img-fluid {
@@ -51,6 +52,13 @@ body {
   font-size: 12px;
   font-weight: bold;
   line-height: 1;
+}
+.navbar-nav li a {
+  font-size: 20px; 
+  font-weight: 800;
+}
+.navbar-brand{
+  font-weight: 800;
 }
 
 /* *******************懸浮購物車**************** */
@@ -184,7 +192,46 @@ body {
     margin-top: 20px;
   }
 }
-
+@media screen and (max-width: 1200px) {
+  .hero-text h2{
+    font-size: 50px;
+  }
+}
+@media screen and (max-width: 424px) {
+  .hero-text h2{
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 344px) {
+  .hero-text h2{
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 264px) {
+  .hero-text h2{
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .hero-text p{
+    font-size: 23px;
+  }
+}
+@media screen and (max-width: 770px) {
+  .hero-text p{
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 484px) {
+  .hero-text p{
+    font-size: 17px;
+  }
+}
+@media screen and (max-width: 228px) {
+  .hero-text p{
+    font-size: 15px;
+  }
+}
 /* *******************產品區塊**************** */
 
 .products {
@@ -202,6 +249,7 @@ body {
 
 .product-item p {
   padding: 10px;
+  font-size: 20px;
 }
 
 .product-item a {
