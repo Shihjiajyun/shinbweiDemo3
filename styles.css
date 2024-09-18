@@ -61,6 +61,11 @@ body {
   font-weight: 800;
 }
 
+.dropdown-menu .btn{
+  background-color: #ff5733;
+  color: #fff;
+  border: none;
+}
 /* *******************懸浮購物車**************** */
 .floating-cart {
   position: fixed;
@@ -123,6 +128,9 @@ body {
 .cart-content .btn {
   display: block;
   text-align: center;
+  background-color: #ff5733;
+  color: #fff;
+  border: none;
 }
 
 .floating-cart .cart-toggle .cart-count {
@@ -156,7 +164,7 @@ body {
 .hero {
   text-align: left;
   color: black;
-  background-color: #c8e690;
+  background-color: #EFE5DC;
   margin-top: 86px;
   height: auto;
 }
@@ -235,7 +243,7 @@ body {
 /* *******************產品區塊**************** */
 
 .products {
-  background-color: #e0e0ff;
+  background-color: #F3D8C7;
   padding: 20px 0;
 }
 
@@ -285,3 +293,26 @@ body {
   background-color: rgb(243, 241, 245);
   opacity: 1;
 }
+/* *******************footer*************** */
+footer h4.text-info {
+  color: #e57373 !important;
+  border-left-color: #e57373 !important; 
+}
+
+footer .form-control {
+  background-color: #fff; 
+  border: 1px solid #ccc; 
+}
+
+
+footer .btn-info {
+  background-color: #e57373; 
+  border-color: #e57373;
+  color: white;
+}
+
+footer .btn-info:hover {
+  background-color: #e0e0ff;
+  border-color: #e0e0ff;
+}
+

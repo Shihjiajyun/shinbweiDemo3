@@ -62,6 +62,11 @@ body {
     font-weight: 800;
 }
 
+.dropdown-menu .btn{
+    background-color: #ff5733;
+    color: #fff;
+    border: none;
+}
 /* *******************懸浮購物車**************** */
 .floating-cart {
     position: fixed;
@@ -124,7 +129,10 @@ body {
 .cart-content .btn {
     display: block;
     text-align: center;
-}
+    background-color: #ff5733;
+    color: #fff;
+    border: none;
+  }
 
 .floating-cart .cart-toggle .cart-count {
     position: absolute;
@@ -156,7 +164,7 @@ body {
 /* *******************hero**************** */
 
 .hero {
-    background-color: #f8f9fa;
+    background-color: #EFE5DC;
     margin-top: 86px;
 }
 
@@ -173,18 +181,26 @@ body {
 }
 
 .hero-buttons .btn1 {
-    background-color: #007bff;
+    background-color: #ff5733;
     color: #fff;
     border: none;
 }
 
+.hero-buttons .btn1:hover {
+    background-color: white;
+    border: solid 1px #c0c1c2;
+    color: black;
+}
+
 .hero-buttons .btn2 {
-    border-color: #007bff;
-    color: #007bff;
+    background-color:white;
+    border-color: #c0c1c2;
+    color: black;
 }
 
 .hero-buttons .btn2:hover {
-    border-color: #007bff;
+    background-color: #ff5733;
+    border-color: #c0c1c2;
     color: white;
 }
 
@@ -242,12 +258,12 @@ body {
 
 .product-info strong {
     font-size: 1.25rem;
-    color: #007bff;
+    color: black;
 }
 
 .add-to-cart {
-    background-color: #007bff;
-    color: #fff;
+    background-color: rgb(243, 241, 245);
+    color: black;
     border: none;
     padding: 10px 20px;
     font-size: 0.875rem;
