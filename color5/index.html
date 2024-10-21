@@ -50,7 +50,7 @@
                     <a class="nav-link shopping-cart-icon position-relative" href="#" id="cartDropdown" role="button"
                         data-bs-toggle="dropdown" aria-expanded="false">
                         <i class="fas fa-shopping-cart"></i>
-                        <span class="cart-count">5</span> <!-- 這裡的 5 是購物車中的商品數量 -->
+                        <span class="cart-count">3</span> <!-- 這裡的 5 是購物車中的商品數量 -->
                     </a>
                     <div class="dropdown-menu dropdown-menu-end p-3" aria-labelledby="cartDropdown"
                         style="width: 300px;">
@@ -70,20 +70,6 @@
                             <span class="item-remove">刪除</span>
                         </div>
                         <div class="cart-item">
-                            <img src="./img/baby3.png" alt="Product Image">
-                            <div class="item-info">
-                                <p>寶寶洗護5件組 - $1280</p>
-                            </div>
-                            <span class="item-remove">刪除</span>
-                        </div>
-                        <div class="cart-item">
-                            <img src="./img/baby4.png" alt="Product Image">
-                            <div class="item-info">
-                                <p>全效修復膏 - $600</p>
-                            </div>
-                            <span class="item-remove">刪除</span>
-                        </div>
-                        <div class="cart-item">
                             <img src="./img/003.png" alt="Product Image">
                             <div class="item-info">
                                 <p>Pigeon母乳奶瓶 - $336</p>
@@ -91,7 +77,7 @@
                             <span class="item-remove">刪除</span>
                         </div>
                         <div class="text-end mt-3">
-                            <strong>總計: $3210</strong>
+                            <strong>總計: $1330</strong>
                         </div>
                         <a href="#" class="btn btn-primary w-100 mt-2">結帳</a>
                     </div>
@@ -103,9 +89,9 @@
     <div class="floating-cart" id="floatingCart">
         <div class="cart-toggle position-relative" onclick="toggleCart()">
             <i class="fas fa-shopping-cart"></i>
-            <span class="cart-count">5</span>
+            <span class="cart-count">3</span>
         </div>
-        <div class="cart-content" id="cartContent">
+        <div class="cart-content" id="cartContent" style="z-index: 100;">
             <h5>購物車內容</h5>
             <div class="cart-item">
                 <img src="./img/baby2.png" alt="Product Image">
@@ -122,20 +108,6 @@
                 <span class="item-remove">刪除</span>
             </div>
             <div class="cart-item">
-                <img src="./img/baby3.png" alt="Product Image">
-                <div class="item-info">
-                    <p>寶寶洗護5件組 - $1280</p>
-                </div>
-                <span class="item-remove">刪除</span>
-            </div>
-            <div class="cart-item">
-                <img src="./img/baby4.png" alt="Product Image">
-                <div class="item-info">
-                    <p>全效修復膏 - $600</p>
-                </div>
-                <span class="item-remove">刪除</span>
-            </div>
-            <div class="cart-item">
                 <img src="./img/003.png" alt="Product Image">
                 <div class="item-info">
                     <p>Pigeon母乳奶瓶 - $336</p>
@@ -143,7 +115,7 @@
                 <span class="item-remove">刪除</span>
             </div>
             <div class="text-end mt-3">
-                <strong>總計: $3210</strong>
+                <strong>總計: $1330</strong>
             </div>
             <a href="#" class="btn btn-primary w-100 mt-2">結帳</a>
         </div>
@@ -175,16 +147,21 @@
                     <div class="product-item">
                         <div class="product-image position-relative">
                             <img src="./img/002.png" alt="產品1" class="img-fluid">
-                            <button class="btn add-to-cart position-absolute"><a href="./car.html">加入購物車</button></a>
+                            <a href="./car.html">
+                                <button class="btn add-to-cart position-absolute">加入購物車</button>
+                            </a>
                         </div>
+
                         <p>Combi寬口奶瓶(任選3)<br>NT$999</p>
                     </div>
                 </div>
                 <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
                     <div class="product-item">
                         <div class="product-image position-relative">
-                            <img src="./img/003.png" alt="產品2" class="img-fluid">
-                            <button class="btn add-to-cart position-absolute"><a href="./car.html">加入購物車</button></a>
+                            <img src="./img/003.png" alt="產品1" class="img-fluid">
+                            <a href="./car.html">
+                                <button class="btn add-to-cart position-absolute">加入購物車</button>
+                            </a>
                         </div>
                         <p>Pigeon母乳奶瓶<br>NT$336</p>
                     </div>
@@ -192,8 +169,10 @@
                 <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
                     <div class="product-item">
                         <div class="product-image position-relative">
-                            <img src="./img/004.png" alt="產品3" class="img-fluid">
-                            <button class="btn add-to-cart position-absolute"><a href="./car.html">加入購物車</button></a>
+                            <img src="./img/004.png" alt="產品1" class="img-fluid">
+                            <a href="./car.html">
+                                <button class="btn add-to-cart position-absolute">加入購物車</button>
+                            </a>
                         </div>
                         <p>Simba防脹氣奶瓶300ML<br>NT$399</p>
                     </div>
@@ -201,8 +180,10 @@
                 <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
                     <div class="product-item">
                         <div class="product-image position-relative">
-                            <img src="./img/baby.png" alt="產品2" class="img-fluid">
-                            <button class="btn add-to-cart position-absolute"><a href="./car.html">加入購物車</button></a>
+                            <img src="./img/baby.png" alt="產品1" class="img-fluid">
+                            <a href="./car.html">
+                                <button class="btn add-to-cart position-absolute">加入購物車</button>
+                            </a>
                         </div>
                         <p>新生兒包屁衣+襪子3件組<br>NT$1580</p>
                     </div>
@@ -210,8 +191,10 @@
                 <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
                     <div class="product-item">
                         <div class="product-image position-relative">
-                            <img src="./img/baby1.png" alt="產品2" class="img-fluid">
-                            <button class="btn add-to-cart position-absolute"><a href="./car.html">加入購物車</button></a>
+                            <img src="./img/baby1.png" alt="產品1" class="img-fluid">
+                            <a href="./car.html">
+                                <button class="btn add-to-cart position-absolute">加入購物車</button>
+                            </a>
                         </div>
                         <p>新生兒包屁衣<br>NT$999</p>
                     </div>
@@ -219,8 +202,10 @@
                 <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
                     <div class="product-item">
                         <div class="product-image position-relative">
-                            <img src="./img/baby2.png" alt="產品2" class="img-fluid">
-                            <button class="btn add-to-cart position-absolute"><a href="./car.html">加入購物車</button></a>
+                            <img src="./img/baby2.png" alt="產品1" class="img-fluid">
+                            <a href="./car.html">
+                                <button class="btn add-to-cart position-absolute">加入購物車</button>
+                            </a>
                         </div>
                         <p>立體矽膠防漏圍兜<br>NT$495</p>
                     </div>
@@ -229,8 +214,10 @@
                 <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
                     <div class="product-item">
                         <div class="product-image position-relative">
-                            <img src="./img/baby3.png" alt="產品2" class="img-fluid">
-                            <button class="btn add-to-cart position-absolute"><a href="./car.html">加入購物車</button></a>
+                            <img src="./img/baby3.png" alt="產品1" class="img-fluid">
+                            <a href="./car.html">
+                                <button class="btn add-to-cart position-absolute">加入購物車</button>
+                            </a>
                         </div>
                         <p>寶寶洗護5件組<br>NT$1580</p>
                     </div>
@@ -238,8 +225,10 @@
                 <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
                     <div class="product-item">
                         <div class="product-image position-relative">
-                            <img src="./img/baby4.png" alt="產品2" class="img-fluid">
-                            <button class="btn add-to-cart position-absolute"><a href="./car.html">加入購物車</button></a>
+                            <img src="./img/baby4.png" alt="產品1" class="img-fluid">
+                            <a href="./car.html">
+                                <button class="btn add-to-cart position-absolute">加入購物車</button>
+                            </a>
                         </div>
                         <p>全效修復膏<br>NT$600</p>
                     </div>
@@ -247,8 +236,10 @@
                 <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
                     <div class="product-item">
                         <div class="product-image position-relative">
-                            <img src="./img/baby5.png" alt="產品2" class="img-fluid">
-                            <button class="btn add-to-cart position-absolute"><a href="./car.html">加入購物車</button></a>
+                            <img src="./img/baby5.png" alt="產品1" class="img-fluid">
+                            <a href="./car.html">
+                                <button class="btn add-to-cart position-absolute">加入購物車</button>
+                            </a>
                         </div>
                         <p>彈力美膚油(3款)<br>NT$1680</p>
                     </div>
@@ -269,7 +260,7 @@
         }
     </script>
 </body>
-<footer class="py-5 bg-light">
+<footer class="py-5">
     <div class="container border-bottom">
         <div class="row gx-5">
             <div class="col-lg-3 col-md-6 mb-4 mb-lg-0 col-sm-8 col-10">
@@ -298,7 +289,7 @@
                         <a href="#" class="link-secondary">02-2311-9799</a>
                         <p class="link-secondary">營業時間<br>09:00-18:00</p>
                     </li>
-                    
+
                 </ul>
             </div>
             <div class="col-lg-2 col-md-3 col-6">
@@ -313,10 +304,10 @@
                     <li class="pb-3">
                         <a href="#" class="link-secondary">門市資訊</a>
                     </li>
-                    
+
                 </ul>
             </div>
-           
+
             <div class="col-lg-3 col-md-3 col-6">
                 <h4 class="text-info h5 border-start border-3 border-info ps-2 mb-3">Subscribe</h4>
                 <form>
